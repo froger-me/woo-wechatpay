@@ -32,7 +32,8 @@ Does NOT support [cross-border payments](https://pay.weixin.qq.com/wechatpay_gui
 
 This plugin adds the following major features to WooCommerce and WP Weixin:
 
-* **Payment of WooCommerce orders in WeChat mobile app (H5):** uses the WeChat JSAPI for a seamless experience.
+* **Payment of WooCommerce orders in WeChat mobile app:** uses the WeChat JSAPI for a seamless experience.
+* **Payment of WooCommerce orders in mobile browsers:** calls the WeChat H5 API for a seamless experience.
 * **Payment of WooCommerce orders with WeChat via QR Code:** for customers using WeChat Pay in classic browsers.
 * **Support for "pay again":** allows customers to continue the payment process of Pending orders.
 * **Refund of WooCommerce orders:** possibility to refund orders manually in a few clicks, and support for automatic refund in case the transaction failed.
@@ -49,13 +50,14 @@ The settings below are added to WooCommerce and WP Weixin when the plugin is act
 
 The following settings can be accessed in WooCommerce > Settings > Payments > WeChat Pay:
 
-| Name                                  | Type     | Description                                                                                 |
-| ------------------------------------- |:--------:| ------------------------------------------------------------------------------------------- |
-| Enable/Disable                        | checkbox | Used to enable/disable the payment gateway                                                  |
-| Checkout page title                   | text     | Title displayed for the payment gateway on the checkout page                                |
-| Checkout page description             | text     | Description displayed for the payment gateway on the checkout page                          |
-| Exchange Rate                         | text     | Exchange rate against Chinese Yuan (shows if the store currency is not set to Chinese Yuan) |
-| WeChat Order Notification Template ID | text     | ID of a template added in the WeChat backend at `https://mp.weixin.qq.com`.                 |
+| Name                                  | Type     | Description                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------------------- |:--------:| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enable/Disable                        | checkbox | Used to enable/disable the payment gateway                                                                                                                                                                                                                                                                                                                                                                                                |
+| Checkout page title                   | text     | Title displayed for the payment gateway on the checkout page                                                                                                                                                                                                                                                                                                                                                                              |
+| Checkout page description             | text     | Description displayed for the payment gateway on the checkout page                                                                                                                                                                                                                                                                                                                                                                        |
+| Exchange Rate                         | text     | Exchange rate against Chinese Yuan (shows if the store currency is not set to Chinese Yuan)                                                                                                                                                                                                                                                                                                                                               |
+| WeChat Order Notification Template ID | text     | ID of a template added in the WeChat backend at `https://mp.weixin.qq.com`.                                                                                                                                                                                                                                                                                                                                                               |
+| H5 payment in mobile web browsers     | checkbox | If checked, customers can place an order via their mobile browsers and select WeChat Pay on their phone: instead of a QR code, WeChat Pay will be automatically called out to complete the payment. This feature requires to be activated and approved in the backend at [https://pay.weixin.qq.com/index.php/extend/pay_apply/apply_normal_h5_pay](https://pay.weixin.qq.com/index.php/extend/pay_apply/apply_normal_h5_pay) beforehand. |
 
 ### WP Weixin Settings
 
