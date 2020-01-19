@@ -15,7 +15,7 @@
 ## General Description
 
 Woo WeChatPay is a companion plugin for WP Weixin that adds a WeChat Pay payment gateway to WooCommerce-powered websites.
-Customers can pay both in the WeChat browser (H5) or from their computer via a QR code.
+Customers can pay both in the WeChat browser (JSAPI), mobile browsers (H5), or from their computer via a QR code.
 Upon purchase and if activated in settings, customers may receive a notification in the WeChat Official Account with a templated message if they are a follower.
 
 ### Requirements
