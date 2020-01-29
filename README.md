@@ -1,4 +1,4 @@
-# Woo WeChatPay - WeChat Pay payment gateway for WooCommerce
+# Payment gateway for WooCommerce - Woo WeChatPay
 
 * [General Description](#user-content-general-description)
 	* [Requirements](#user-content-requirements)
