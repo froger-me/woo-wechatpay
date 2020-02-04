@@ -83,7 +83,7 @@ ___
 #### woo_wechatpay_templated_message_sent
 
 ```php
-do_action( 'woo_wechatpay_templated_message_sent', (bool) $sent, (array) $parameters );
+do_action( 'woo_wechatpay_templated_message_sent', bool $sent, array $parameters );
 ```
 
 **Description**  
