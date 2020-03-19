@@ -76,6 +76,11 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+= 1.3.11 =
+* WC tested up to: 4.0.0
+* WP Weixin tested up to: 1.3.11
+* Translation updates
+
 = 1.3.10 =
 * WC tested up to: 3.9.2
 * WP Weixin tested up to: 1.3.10

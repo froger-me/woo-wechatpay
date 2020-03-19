@@ -1,0 +1,268 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo WeChatPay\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-06 15:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-4.9.8"
+
+#. %1$s is the URL of the link and %2$s is the currency name
+#: inc/class-wc-wechatpay.php:337
+#, php-format
+msgid ""
+" Please <a href=\"%1$s\">set the %2$s against the Chinese Yuan exchange "
+"rate</a>."
+msgstr ""
+
+#. 1: remark text 2: remark call to action
+#: inc/class-wc-wechatpay.php:816
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. Author of the plugin
+msgid "Alexandre Froger"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:300
+msgid "An unexpected error occured. Please check your internet connection."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1116
+msgid "Checkout page description"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1111
+msgid "Checkout page title"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1107
+msgid "Enable WeChat Pay"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1105
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/templates/computer-pay-qr.php:25
+msgid ""
+"Error generating the payment QR code. If the problem persists, please "
+"contact our services."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1143
+msgid "Exchange Rate"
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:365
+msgid "Force follow (user account and checkout pages)"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://froger.me"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/froger-me/woo-wechatpay"
+msgstr ""
+
+#. %1$s is the URL https://mp.weixin.qq.com
+#: inc/class-wc-wechatpay.php:1085
+#, php-format
+msgid "ID of a template added in the backend at %1$s."
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:173
+msgid "If the problem persists, please contact an administrator."
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrate Woocommerce with WeChat Pay."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:374 inc/class-wc-wechatpay.php:489
+#: inc/class-wc-wechatpay.php:546 inc/class-wc-wechatpay.php:631
+msgid "Invalid order ID"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:477
+msgid "Invalid WeChat Response"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1081
+msgid "Leave blank if unused."
+msgstr ""
+
+#: inc/templates/redirected-pay.php:18
+msgid "Loading..."
+msgstr ""
+
+#. %s: URL
+#: inc/class-wc-wechatpay.php:1131
+#, php-format
+msgid ""
+"Log WeChat Pay events inside %s Note: this may log personal information. We "
+"recommend using this for debugging purposes only and deleting the logs when "
+"finished."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1092
+msgid "Make sure to use a template that includes the following fields:"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:869
+msgid "NOTICE: WeChat Pay transaction failed - order automatically refunded."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:796
+msgid "Open to view your orders."
+msgstr ""
+
+#. %1$d is Orded ID, %2$d is the blog of origin of the order
+#: inc/class-woo-wechatpay.php:149
+#, php-format
+msgid "Order #%1$s could not be found on blog ID %2$d."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1118
+msgid ""
+"Pay via WeChat. If you are unable to pay with a WeChat account, please "
+"select a different payment method."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:36
+msgid "Pay with WeChat"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:615
+msgid ""
+"Payment gateway error. Please try again. If the problem persists, please "
+"contact an administrator."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:712 inc/templates/computer-pay-qr.php:35
+msgid "Place a new order and try again."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:389
+msgid "Please scan the QR code with WeChat to finish the payment."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:957
+msgid "QR code url is empty"
+msgstr ""
+
+#. 1: Refund amount, 2: Payment method title, 3: Refund ID
+#: inc/class-wc-wechatpay.php:232
+#, php-format
+msgid "Refunded %1$s via %2$s - Refund ID: %3$s"
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:368
+msgid ""
+"Require the user to follow the Official Account before accessing the "
+"checkout and user account pages with the WeChat browser (except "
+"administrators and admin interface)."
+msgstr ""
+
+#. %1$s is the currency
+#: inc/class-wc-wechatpay.php:1138
+#, php-format
+msgid ""
+"Set the %1$s against Chinese Yuan exchange rate <br/>(1 %1$s = [field value] "
+"Chinese Yuan)"
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:249
+msgid "Settings"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:299
+msgid ""
+"Something went wrong... Please reload the page. If the problem persists, "
+"please contact our services."
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:136
+msgid "System error."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:795
+msgid "Thank you for your order!"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:955 inc/class-wc-wechatpay.php:962
+msgid "The order has failed. Reason: "
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:301
+msgid ""
+"The system could not detect payment validation. Please reload the page for "
+"confirmation."
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:260
+msgid "Transaction:"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:1087
+msgid ""
+"Used to send a templated message to the follower after successful purchase."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:889
+msgid "User is authenticated in WeChat browser but openid cannot be found"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:876
+msgid "WARNING: WeChat Pay transaction failed - automatic refund failed!"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:28 inc/class-wc-wechatpay.php:394
+#: inc/class-wc-wechatpay.php:1113
+msgid "WeChat Pay"
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:31 inc/class-wc-wechatpay.php:395
+msgid "WeChat Pay is a simple, secure and fast online payment method."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:335
+msgid ""
+"WeChat Pay is enabled, but the store currency is not set to Chinese Yuan."
+msgstr ""
+
+#: inc/class-wc-wechatpay.php:474
+msgid "WeChat Pay payment completed"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woo WeChatPay"
+msgstr ""
+
+#: inc/class-woo-wechatpay.php:272
+msgid ""
+"Woo WeChatPay: Please make sure the plugin WP Weixin is activated, enabled "
+"and configured properly."
+msgstr ""
+
+#. %1$d is Orded ID
+#: inc/class-woo-wechatpay.php:162
+#, php-format
+msgid "You cannot pay order #%1$s - unauthorised access."
+msgstr ""
+
+#. %1$d is Orded ID
+#: inc/class-woo-wechatpay.php:156
+#, php-format
+msgid "You cannot pay order #%1$s as it appears it belongs to another user."
+msgstr ""
